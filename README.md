@@ -6,7 +6,7 @@ See this simulation environment to see hardware organization
 https://wokwi.com/projects/366925946850567169
 
 # How it works
-Demo Video: https://drive.google.com/file/d/1l0hLff5ODTJ4vruzkmB21UgjIhKylvcM/view?usp=sharing
+Demo Video: https://drive.google.com/file/d/1l0hLff5ODTJ4vruzkmB21UgjIhKylvcM/view?usp=sharing <br>
 The arduino is concurrently handling input and output at the same time using RTOS with a few 
 functions aiding it. There are four tasks that are ran by the RTOS, LEDControl, LCDControl,
 ScrollHandler, and SelectHandler. Values are passed between them by queues, in which 3 exist.
